@@ -1,0 +1,81 @@
+body {
+    background-image: url('image/lukasz-rawa-fmc-tFMMiBs-unsplash.jpg');
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2 {font-size: 30px;}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: brown;
+}
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -20px;
+}
+
+.item p{
+    display: inline-block;
+    margin: 5px auto;
+    font-size: 18px;
+}
+.sabor, .sobremesa {
+    text-align: left;
+    width: 75%;
+}
+.preco {
+    text-align: right;
+    width: 25%;
+}
+
+.fundacao {
+    font-style: italic;
+}
+
+.linha-rodape {
+    margin-top: 25px;
+}
+
+.email {
+    margin-bottom: 5px;
+}
